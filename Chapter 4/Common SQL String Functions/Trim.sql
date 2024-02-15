@@ -1,5 +1,6 @@
+#Remove specified character from the start or end of a string
 SELECT TRIM(
     'M'
     FROM ProductCode
-  ) AS TrimmedProductCode
+  ) AS TrimProductCode
 FROM Product
