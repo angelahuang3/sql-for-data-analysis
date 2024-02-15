@@ -1,3 +1,4 @@
 SELECT OrderID, CreationDate
 FROM Orders
-Where Year(CreationDate) > (Year(Now()) - 10);
+Where 
+YEAR(CreationDate) > (YEAR(Now()) - 10);
